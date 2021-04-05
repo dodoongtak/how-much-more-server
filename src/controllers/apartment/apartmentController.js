@@ -33,14 +33,13 @@ async function getApartment({ address, year, keyword }) {
 
 const getApartmentController = async (req, res) => {
   const { query: { apartmentCategory } } = req;
-
-  const apartmentsPromises = categories[apartmentCategory].map(
-    async (url) => getApartment(url),
-  );
-
-  const apartments = await Promise.all(apartmentsPromises);
-
   try {
+    const apartmentsPromises = categories[apartmentCategory].map(
+      async (url) => getApartment(url),
+    );
+
+    const apartments = await Promise.all(apartmentsPromises);
+
     res.status(200).json({ msg: '성공', success: true, apartments });
   } catch (err) {
     res.status(400).json({ msg: err, success: false });
