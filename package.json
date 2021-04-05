@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev:server": "nodemon --exec babel-node src/index.js --delay 2",
+    "lint": "eslint --ext js .",
     "build:server": "babel src --out-dir build",
     "build": "npm run build:server",
     "prebuild": "rm -rf build",
