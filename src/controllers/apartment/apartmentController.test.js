@@ -23,10 +23,10 @@ describe('apartmentController', () => {
 
     const processedApartment = {
       name: '아크로리버파크',
-      price: 470000,
+      price: '470,000',
       date: '2021-3-2',
       district: '반포동',
-      area: 129.92,
+      size: 129.92,
       lotNumber: '2-12',
     };
 

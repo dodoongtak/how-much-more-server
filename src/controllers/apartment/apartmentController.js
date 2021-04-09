@@ -38,10 +38,10 @@ export function processApartment(apartment) {
 
   const processedData = {
     name: 아파트,
-    price: parseInt(거래금액.trim().replace(',', ''), 10),
+    price: 거래금액.trim(),
     date: `${년}-${월}-${일}`,
     district: 법정동.trim(),
-    area: 전용면적,
+    size: 전용면적,
     lotNumber: 지번,
   };
 
