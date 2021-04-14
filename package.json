@@ -9,7 +9,7 @@
     "coverage": "npm run test:unit -- --coverage",
     "test": "npm run coverage",
     "watch": "jest --watchAll",
-    "dev:server": "nodemon --exec babel-node src/index.js --delay 2",
+    "dev:server": "nodemon --exec ./node_modules/.bin/babel-node src/index.js --delay 2",
     "build:server": "babel src --out-dir build",
     "build": "npm run build:server",
     "prebuild": "rm -rf build",
