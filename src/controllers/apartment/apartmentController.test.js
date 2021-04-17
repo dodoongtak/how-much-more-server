@@ -27,6 +27,7 @@ describe('apartmentController', () => {
       date: '2021-3-2',
       district: '반포동',
       size: 129.92,
+      builtYear: 2016,
       lotNumber: '2-12',
     };
 

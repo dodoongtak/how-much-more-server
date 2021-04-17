@@ -33,7 +33,7 @@ async function getApartment({ address, year, keyword }) {
 
 export function processApartment(apartment) {
   const {
-    아파트, 거래금액, 년, 월, 일, 법정동, 전용면적, 지번,
+    아파트, 거래금액, 년, 월, 일, 법정동, 전용면적, 건축년도, 지번,
   } = apartment;
 
   const processedData = {
@@ -42,6 +42,7 @@ export function processApartment(apartment) {
     date: `${년}-${월}-${일}`,
     district: 법정동.trim(),
     size: 전용면적,
+    builtYear: 건축년도,
     lotNumber: 지번,
   };
 
