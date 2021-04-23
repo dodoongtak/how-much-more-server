@@ -3,6 +3,8 @@ import dotenv from 'dotenv';
 
 import categories from '../../fixtures/categories';
 
+import { converToPyeong } from '../../utils/utils';
+
 dotenv.config();
 
 function hanldeURL({ address, year }) {
@@ -41,7 +43,8 @@ export function processApartment(apartment) {
     price: 거래금액.trim().replace(',', ''),
     date: `${년}-${월}-${일}`,
     district: 법정동.trim(),
-    size: 전용면적,
+    size: Math.floor(전용면적),
+    pyeong: converToPyeong(전용면적),
     builtYear: 건축년도,
     lotNumber: 지번,
   };
