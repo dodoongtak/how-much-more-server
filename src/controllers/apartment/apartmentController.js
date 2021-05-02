@@ -2,8 +2,9 @@ import axios from 'axios';
 import dotenv from 'dotenv';
 
 import categories from '../../fixtures/categories';
+import imgLists from '../../fixtures/imgLists';
 
-import { converToPyeong } from '../../utils/utils';
+import { converToPyeong, getImgSrc } from '../../utils/utils';
 
 dotenv.config();
 
@@ -47,6 +48,7 @@ export function processApartment(apartment) {
     pyeong: converToPyeong(전용면적),
     builtYear: 건축년도,
     lotNumber: 지번,
+    imgSrc: getImgSrc(imgLists, 아파트),
   };
 
   return processedData;

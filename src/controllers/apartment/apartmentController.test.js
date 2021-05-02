@@ -30,6 +30,7 @@ describe('apartmentController', () => {
       pyeong: 39,
       builtYear: 2016,
       lotNumber: '2-12',
+      imgSrc: 'https://user-images.githubusercontent.com/77006427/116790973-300e8e80-aaf2-11eb-8f9b-e4b12a0204f5.png',
     };
 
     expect(processApartment(initialApartment)).toEqual(processedApartment);
