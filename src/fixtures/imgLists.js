@@ -26,7 +26,7 @@ const imgLists = [
   },
   {
     keyword: '더샵센텀스타',
-    imgSrc: '(https://user-images.githubusercontent.com/77006427/116791148-5da80780-aaf3-11eb-95d0-017bd06d2901.png',
+    imgSrc: 'https://user-images.githubusercontent.com/77006427/116791148-5da80780-aaf3-11eb-95d0-017bd06d2901.png',
   },
   {
     keyword: '해운대두산위브더제니스',
@@ -73,10 +73,9 @@ const imgLists = [
     keyword: '아크로 서울포레스트',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116791486-a660c000-aaf5-11eb-8825-2e361af7fc0e.png',
   },
-
   {
     keyword: '리버힐삼성',
-    imgSrc: '(https://user-images.githubusercontent.com/77006427/116791547-20914480-aaf6-11eb-8c16-3d9b7f507343.png',
+    imgSrc: 'https://user-images.githubusercontent.com/77006427/116791547-20914480-aaf6-11eb-8c16-3d9b7f507343.png',
   },
   {
     keyword: '아펠바움',
@@ -111,20 +110,18 @@ const imgLists = [
     keyword: '수원 SK SKY VIEW',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116791905-5c2d0e00-aaf8-11eb-8f9c-7b9702ad1157.png',
   },
-
   {
     keyword: '송도아트윈푸르지오',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116791930-85e63500-aaf8-11eb-8708-e5f4130ad249.png',
   },
   {
     keyword: '상암카이저팰리스클래식',
-    imgSrc: 'https://user-images.githubusercontent.com/77006427/116792101-977c0c80-aaf9-11eb-81f0-04f84fe08509.png)',
+    imgSrc: 'https://user-images.githubusercontent.com/77006427/116792101-977c0c80-aaf9-11eb-81f0-04f84fe08509.png',
   },
   {
     keyword: '노블씨티',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116792142-d742f400-aaf9-11eb-93d1-0f79a1f1cf68.png',
   },
-
   {
     keyword: '반포자이',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116792209-2d179c00-aafa-11eb-9c30-5536fddacbe6.png',
@@ -141,17 +138,14 @@ const imgLists = [
     keyword: '마포래미안푸르지오1단지',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116792279-9b5c5e80-aafa-11eb-8420-c549b644e3b0.png',
   },
-
   {
     keyword: '래미안퍼스티지',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116792363-145bb600-aafb-11eb-96bb-91956d656f96.png',
   },
-
   {
     keyword: '타워팰리스2',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116792403-5258da00-aafb-11eb-8905-9a2950848a18.png',
   },
-
   {
     keyword: '시범',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116792450-9815a280-aafb-11eb-8bbe-fb204631b8b7.png',
