@@ -15,7 +15,6 @@ const imgLists = [
     keyword: '한양1차(영동한양)',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116791091-0013bb00-aaf3-11eb-82ac-972eb17c5734.png',
   },
-
   {
     keyword: '속초자이',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116791106-14f04e80-aaf3-11eb-8547-665881d081c5.png',
@@ -36,7 +35,6 @@ const imgLists = [
     keyword: '해운대 I PARK',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116791197-9ea01c00-aaf3-11eb-959d-9a37b152974f.png',
   },
-
   {
     keyword: '더펜트하우스청담',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116791300-461d4e80-aaf4-11eb-94a2-2665be40feb0.png',
@@ -89,7 +87,6 @@ const imgLists = [
     keyword: '트리마제',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116791741-584cbc00-aaf7-11eb-96f6-2ae66b457aea.png',
   },
-
   {
     keyword: '삼성동힐스테이트 1단지',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116791774-79ada800-aaf7-11eb-8296-eb24a7b4b629.png',
