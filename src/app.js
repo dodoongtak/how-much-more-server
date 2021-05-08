@@ -10,9 +10,22 @@ import router from './routes/router.conf';
 
 const app = express();
 
+const allowDomain = 'http://howmuchmore.xyz/';
+
+const corsOptionsDelegate = (req, callback) => {
+  let corsOptions;
+
+  if (allowDomain.indexOf(req.header('Origin')) !== -1) {
+    corsOptions = { origin: true };
+  } else {
+    corsOptions = { origin: false };
+  }
+  callback(null, corsOptions);
+};
+
 app.disable('x-powered-by');
 
-app.use(cors());
+app.use(cors(corsOptionsDelegate));
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
