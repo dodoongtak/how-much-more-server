@@ -10,7 +10,7 @@ import router from './routes/router.conf';
 
 const app = express();
 
-const allowDomain = 'http://howmuchmore.xyz/';
+const allowDomain = 'https://howmuchmore.xyz/';
 
 const corsOptionsDelegate = (req, callback) => {
   let corsOptions;
