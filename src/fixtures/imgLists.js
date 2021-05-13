@@ -36,7 +36,7 @@ const imgLists = [
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116791197-9ea01c00-aaf3-11eb-959d-9a37b152974f.png',
   },
   {
-    keyword: '더펜트하우스청담',
+    keyword: 'PH129',
     imgSrc: 'https://user-images.githubusercontent.com/77006427/116791300-461d4e80-aaf4-11eb-94a2-2665be40feb0.png',
   },
   {

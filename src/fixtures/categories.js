@@ -54,7 +54,7 @@ const categories = {
     {
       address: 11680,
       year: 202103,
-      keyword: '더펜트하우스청담',
+      keyword: 'PH129',
     },
     {
       address: 11680,
@@ -188,7 +188,7 @@ const categories = {
     {
       address: 11680,
       year: 202103,
-      keyword: '더펜트하우스청담',
+      keyword: 'PH129',
     },
     {
       address: 11170,
