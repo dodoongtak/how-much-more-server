@@ -41,7 +41,7 @@ export function processApartment(apartment) {
 
   const processedData = {
     name: 아파트,
-    price: 거래금액.trim().replace(',', ''),
+    price: 거래금액.trim().replace(/,/gi, ''),
     date: `${년}-${월}-${일}`,
     district: 법정동.trim(),
     size: Math.floor(전용면적),
