@@ -10,12 +10,12 @@ import router from './routes/router.conf';
 
 const app = express();
 
-const allowDomainLists = ['https://howmuchmore.xyz/', 'http://localhost:8080/'];
+const whiteLists = ['https://howmuchmore.xyz/', 'http://localhost:8080'];
 
-const corsOptionsDelegate = (req, callback) => {
+const corsOptionsDelegate = (origin, callback) => {
   let corsOptions;
 
-  if (allowDomainLists.indexOf(req.header('Origin')) !== -1) {
+  if (whiteLists.indexOf(origin.header('Origin')) !== -1) {
     corsOptions = { origin: true };
   } else {
     corsOptions = { origin: false };
