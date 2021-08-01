@@ -176,11 +176,6 @@ const categories = {
       keyword: '송도아트윈푸르지오',
     },
     {
-      address: 11440,
-      year: 201603,
-      keyword: '상암카이저팰리스클래식',
-    },
-    {
       address: 11650,
       year: 202012,
       keyword: '노블씨티',
