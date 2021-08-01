@@ -10,7 +10,7 @@ import router from './routes/router.conf';
 
 const app = express();
 
-const whiteLists = ['https://howmuchmore.xyz/', 'http://localhost:8080'];
+const whiteLists = ['https://howmuchmore.xyz', 'http://localhost:8080'];
 
 const corsOptionsDelegate = (origin, callback) => {
   let corsOptions;
